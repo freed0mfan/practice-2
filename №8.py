@@ -1,0 +1,5 @@
+N_M = input('N_M:')
+N = int(N_M.split()[0])
+M = int(N_M.split()[1])
+portion = M // (N + 1)
+print(f'Каждому достанется {portion} конфет')
